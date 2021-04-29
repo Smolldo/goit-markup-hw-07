@@ -1,0 +1,15 @@
+//portfolio btns list
+
+.filterButton__list {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 50px;
+}
+
+.filterButton__item+.filterButton__item {
+    margin-left: 8px;
+}

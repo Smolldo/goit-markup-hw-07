@@ -1,0 +1,27 @@
+//Main page Hero block
+
+.inner__screen {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    padding: 0;
+    max-width: 1600px;
+    margin: auto;
+
+
+    background-color: var(--inner-screen);
+    padding-top: 200px;
+    padding-bottom: 196px;
+
+
+    background-image: linear-gradient(to left, var(--gradient-color)40%,
+            var(--gradient-color)100%),
+        url('../images/Img.jpg');
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

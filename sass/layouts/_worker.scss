@@ -1,0 +1,53 @@
+//worker block
+
+.team__section {
+    background-color: var(--team-bg);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team__list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.team__photo {
+    width: 270px;
+    height: 260px;
+    display: block;
+    margin: 0;
+}
+
+.description {
+    padding: 30px 15px;
+
+}
+
+.team__item {
+    box-shadow: 0 2px 1px var(--card-shadow);
+
+    background-color: var(--bg-color);
+
+    border-radius: 4px;
+
+
+&+& {
+    margin-left: 30px;
+}
+}
+
+.team__paragraph {
+    color: var(--alter-text);
+
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+/*Customer block*/
+.customer__section {
+    padding-top: 85px;
+    padding-bottom: 94px;
+}

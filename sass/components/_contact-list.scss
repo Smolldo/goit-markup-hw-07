@@ -1,0 +1,50 @@
+
+
+//footer contact section
+
+.footerContact__list {
+    margin-top: 9px;
+}
+.footerContact__item {
+    list-style: none;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: .03em;
+
+&:first-child {
+    margin-bottom: 9px;
+}
+}
+
+
+.footer__feedback {
+    margin-top: 20px;
+}
+
+.address {
+    font-style: unset;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: .03em;
+
+    color: var(--bg-color);
+}
+
+
+
+.footerContact__link {
+    color: var(--bgbody-color);
+    text-decoration: none;
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  color;
+
+&:hover,
+&:focus {
+    color: var(--hover-color);
+}
+}
